@@ -44,7 +44,12 @@
 > 전체적인 구조를 잡기로 계획했습니다! 그렇지만...실상은..?
 - 구성한 페이지
   ![](02_09_page.png)
-  - nav바 : 조장님이 소개해주신 font awesome의 아이콘활용!/d-flex를 이용한 구조잡기
-  - profile 간단 구성 : grid를 이용한 사진과 글자배치
-  - activity 색상 구성 : color hunt의 색상 활용! 해질녘 색이 변하는 하늘을 표현했습니다/css 클래스이용
+  - nav바
+    - 조장님이 소개해주신 font awesome의 아이콘활용!
+    - d-flex를 이용한 구조잡기
+  - profile 간단 구성
+    - grid를 이용한 사진과 글자배치
+  - activity 색상 구성
+    - color hunt(조장님 짱ㅎㅎㅎ)의 색상 활용! :city_sunset: 해질녘 색이 변하는 하늘...좋아!!
+    - css 클래스이용
 
