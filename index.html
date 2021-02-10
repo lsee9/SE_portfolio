@@ -15,7 +15,7 @@
 
 <body>
   <!-- navigation -->
-  <nav class="sticky-top">
+  <!-- <nav class="sticky-top">
     <ul class="nav justify-content-center py-1 bg-dark">
       <li class="nav-item">
         <a class="nav-link d-flex flex-column align-items-center" aria-current="page" href="index.html">
@@ -42,10 +42,10 @@
         </a>
       </li>
     </ul>
-  </nav>
+  </nav> -->
   <!-- main image -->
   <!-- <img src="..." class="img-fluid" alt="..."> -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -70,7 +70,43 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </a>
+  </div> -->
+
+  <div class="d-flex">
+    <nav id="navbar-example3" class="navbar-light bg-dark nav-width">
+      <div class="nav-sticky">
+        <a class="navbar-brand text-white" href="#">Sungeun</a>
+        <nav class="nav n classav-pills flex-column">
+          <a class="nav-link text-white" href="#item-1">Main</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1 text-white" href="#item-1-1">Item 1-1</a>
+            <a class="nav-link ms-3 my-1 text-white" href="#item-1-2">Item 1-2</a>
+          </nav>
+          <a class="nav-link text-white" href="#item-2">Profile</a>
+          <a class="nav-link text-white" href="#item-3">Activity</a>
+          <!-- <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1 text-white" href="#item-3-1">Item 3-1</a>
+            <a class="nav-link ms-3 my-1 text-white" href="#item-3-2">Item 3-2</a>
+          </nav> -->
+          <a class="nav-link text-white" href="#item-3">Favorite</a>
+        </nav>
+      </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" style="width: 100%;">
+      <div id="item-1" class="activity-box nightsky-top">
+        <h2 class="text-white">First</h2>
+      </div>
+      <div id="item-1-1" class="activity-box navy1"></div>
+      <div id="item-1-2" class="activity-box purple-top"></div>
+      <div id="item-2" class="activity-box purple1"></div>
+      <div id="item-3" class="activity-box sunset-mid1"></div>
+      <div id="item-3-1" class="activity-box sunset-mid2"></div>
+      <div id="item-3-2" class="activity-box sunset-bottom"></div>
+    </div>
   </div>
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
