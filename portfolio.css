@@ -1,0 +1,162 @@
+
+.nav-bg {
+  /* background-color: rgb(27, 38, 44, 0.3); */
+  background-color: rgb(0, 0, 0, 0.2);
+
+}
+.nightsky-top {
+  background-color: #1b262c;
+}
+
+.nightsky-mid1 {
+  background-color: #0f4c75;
+}
+
+.nightsky-mid2 {
+  background-color: #3282b8;
+}
+
+.nightsky-bottom {
+  background-color: #bbe1fa;
+}
+
+.purple-top {
+  background-color: #363062;
+}
+
+.purple1 {
+  background-color: #424874;
+}
+
+.purple-mid1 {
+  background-color: #4d4c7d;
+}
+
+.purple-mid2 {
+  background-color: #827397;
+}
+
+.purple-bottom {
+  background-color: #d8b9c3;
+}
+
+.navy1 {
+  background-color: #17223b;
+}
+
+.navy2 {
+  background-color: #0b032d;
+}
+
+.sunset-top {
+  background-color: #35477d;
+}
+
+.sunset-mid1 {
+  background-color: #6c5b7b;
+}
+
+.sunset-mid2 {
+  background-color: #c06c84;
+}
+
+.sunset-bottom {
+  background-color: #f67280;
+}
+
+/* 전체가 805px정도 */
+.main-box {
+  height: 700px;
+}
+
+.profile-box1 {
+  height: 105px;
+}
+.profile-box2 {
+  height: 580px;
+}
+
+.activity-box {
+  height: 400px;
+}
+
+.nav-width {
+  width: 10rem;
+}
+
+/* main decoration */
+.star-color {
+  color: rgb(245, 234, 32, 0.50);
+}
+.star-1 {
+  position: absolute;
+  top: 120px;
+  left: 50px; 
+}
+.star-2 {
+  position: absolute;
+  top: 130px;
+  left: 140px; 
+}
+.star-3 {
+  position: absolute;
+  top: 180px;
+  left: 190px; 
+}
+.star-4 {
+  position: absolute;
+  top: 230px;
+  left: 230px; 
+}
+.star-5 {
+  position: absolute;
+  top: 300px;
+  left: 230px; 
+}
+.star-6 {
+  position: absolute;
+  top: 320px;
+  left: 330px; 
+}
+.star-7 {
+  position: absolute;
+  top: 260px;
+  left: 370px; 
+}
+.star-8 {
+  position: absolute;
+  top: 280px;
+  right: 340px; 
+}
+.star-9 {
+  position: absolute;
+  top: 300px;
+  right: 210px; 
+}
+.star-10 {
+  position: absolute;
+  top: 200px;
+  right: 250px; 
+}
+.star-11 {
+  position: absolute;
+  top: 210px;
+  right: 130px; 
+}
+.star-12 {
+  position: absolute;
+  top: 120px;
+  right: 150px; 
+}
+.main-head {
+  position: absolute;
+  top: 30vh;
+  left: 32vw;
+  font-family: 'Lobster', cursive;
+}
+
+/* @media (max-width: 992px) {
+  .main-head {
+
+  }
+} */
