@@ -16,7 +16,10 @@
 
   <!-- favicon -->
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./web_image/favicon.ico" type="image/x-icon">
+
+  <!-- console -->
+  <meta name="google-site-verification" content="OP9WpA1bewm-Q3JlskcGk5ePdCnZo2p2DoJjvw_YqUI" />
 
   <title>Document</title>
   <link rel="stylesheet" href="portfolio.css">
@@ -26,6 +29,8 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -144,59 +149,135 @@
   <!-- 작아지는 화면에 대해 조정하기!! 미디어커리같은거 사용하ㄱㅣ -->
   <!-- 전체 div에 대해 h1을 d-flex써서 위치를 조정하던지... 별자리 부분을 사진으로 넣어서 그리드 쓰는것도 괜찮을 듯! -->
   <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" style="width: 100%;">
-    <div id="Main" class="main-box nightsky-top position-relative">
-      <h1 class="text-white main-head display-1">Sungeun's Portfolio</h1>
-      <!-- 북두칠성 -->
-      <ul>
-        <i class="fas fa-star fa-xs pt-2 star-color star-1"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-2"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-3"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-4"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-5"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-6"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-7"></i>
-      </ul>
-      <!-- 카시오페아 -->
-      <ul>
-        <i class="fas fa-star fa-xs pt-2 star-color star-8"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-9"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-10"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-11"></i>
-        <i class="fas fa-star fa-xs pt-2 star-color star-12"></i>
-      </ul>
+    <div id="Main" class="main-box nightsky-top d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <img class="col-3" src="./web_image/star1.png" alt="star1">
+          <h1 class="col-6 text-white main-head display-1 text-center">Sungeun's Portfolio</h1>
+          <img class="col-3" src="./web_image/star2-4.png" alt="star1">
+          <div class="col">
+            <p class="text-white main-font text-center h4">Welcom to my PORTFOLIO!!!!</p>
+            <p class="text-white main-font text-center h4">Introduce about ME!</p>
+            <p class="text-white main-font text-center h4">LET'S GO!!</p>
+
+          </div>
+        </div>
+      </div> 
     </div>
     <!-- Profile -->
     <div id="profile" class="profile-box1 nightsky-top"></div>
     <div class="profile-box2 navy1">
+      <h2 class="text-white py-4 text-center">Profile</h2>
       <div class="container">
         <div class="row">
-          <h2 class="col offset-5 text-white my-5">Profile</h2>
-          <div class="col-12">
-            <div class="row">
-              <img class="col-4  offset-2" src="./me1.jpg" alt="">
-              <ul class="col-4 offset-1 list-unstyled d-flex flex-column justify-content-center">
-                <li class="text-white">Name : Lee Sungeun</li>
-                <li class="text-white">Birth : 1998.03</li>
-                <li class="text-white">Major : Electronic Engineering</li>
-                <li class="text-white">
-                  <p class="text-white">My Keyword</p>
-                  <p class="text-white">#frindly</p>
-                  <p class="text-white">#pleasantly</p>
-                  <p class="text-white">#silent</p>
-                  <p class="text-white">#effort</p>
-                </li>
-              </ul>
-            </div>
+          <img class="col-4  offset-2" src="./web_image/me1.jpg" alt="">
+          <ul class="col-4 offset-1 list-unstyled d-flex flex-column justify-content-center">
+            <li class="text-white">Name : Lee Sungeun</li>
+            <li class="text-white">Birth : 1998.03</li>
+            <li class="text-white">Major : Electronic Engineering</li>
+            <li class="text-white">
+              <p class="text-white">My Keyword</p>
+              <p class="text-white">#frindly</p>
+              <p class="text-white">#pleasantly</p>
+              <p class="text-white">#silent</p>
+              <p class="text-white">#effort</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- activity -->
+    <div id="activity" class="activity-box1 navy1"></div>
+    <div class="profile-box3 purple-top"></div>
+    <!-- first -->
+    <div class="activity-box purple-top">
+      <h2 class="text-white text-center pb-4">Activity</h2>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <i class="col-3 offset-1 fas fa-university text-white fa-10x"></i>
+          <div class="col-4">
+            <p class="text-white text-center h4">university entrance</p>
+            <h5 class="text-white text-center">2017.03</h5>
+          </div>
+          <h5 class="col-12 text-white text-center pt-4">Let's me introduce you to the activities</h5>
+          <h5 class="col-12 text-white text-center">from the entrance to the present</h5>
+        </div>
+      </div>
+    </div>
+    <!-- second -->
+    <div class="activity-box purple1">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-3 d-flex flex-column">
+            <i class="fas fa-flask text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">volunteer</p>
+            <p class="text-white text-center h5">science education for schoolchild</p>
+            <h5 class="text-white text-center">2017.04 ~ 2017.06</h5>
+          </div>
+          <div class="col-3 offset-1 d-flex flex-column">
+            <i class="fas fa-robot text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">competion</p>
+            <p class="text-white text-center h5">2018 SoC robot war</p>
+            <h5 class="text-white text-center">2018.05 ~ 2018.10</h5>
           </div>
         </div>
       </div>
     </div>
-    <div class="profile-box1 purple-top"></div>
-    <div id="item-1-2" class="activity-box purple-top"></div>
-    <div id="activity" class="activity-box purple1"></div>
-    <div id="item-3" class="activity-box sunset-mid1"></div>
-    <div id="photo" class="activity-box sunset-mid2"></div>
-    <div id="item-3-2" class="activity-box sunset-bottom"></div>
+    <!-- third -->
+    <div class="activity-box sunset-mid1">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-3 d-flex flex-column">
+            <i class="fas fa-solar-panel text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">U-SURF</p>
+            <p class="text-white text-center h5">UNIST summer intern program</p>
+            <h5 class="text-white text-center">2019.07 ~ 2019.08</h5>
+          </div>
+          <div class="col-3 offset-1 d-flex flex-column">
+            <i class="fas fa-microphone-alt text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">research institute intern</p>
+            <p class="text-white text-center h5">voice recognition deep-learning</p>
+            <h5 class="text-white text-center">2019.12 ~ 2020.02</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="photo" class="activity-box sunset-mid2">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-3 d-flex flex-column">
+            <i class="fas fa-microchip text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">undergraduate researcher</p>
+            <p class="text-white text-center h5">digital integrated circuit design</p>
+            <h5 class="text-white text-center">2020.04 ~ 2020.08</h5>
+          </div>
+          <div class="col-3 offset-1 d-flex flex-column">
+            <i class="fas fa-pen-fancy text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">summer conference</p>
+            <p class="text-white text-center h5">submit a research paper about multiplier</p>
+            <h5 class="text-white text-center">2020.07 ~ 2020.08</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="item-3-2" class="activity-box sunset-bottom">
+      <div class="container pt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-3 d-flex flex-column">
+            <i class="fas fa-medal text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">hackathon</p>
+            <p class="text-white text-center h5">2nd prize in deep learning projects</p>
+            <h5 class="text-white text-center">2020.09 ~ 2020.09</h5>
+          </div>
+          <div class="col-3 offset-1 d-flex flex-column">
+            <i class="fab fa-python text-white fa-10x text-center"></i>
+            <p class="text-white text-center h4  pt-4">SSAFY 5th</p>
+            <p class="text-white text-center h5">sofrware training to become a developer</p>
+            <h5 class="text-white text-center">2021.02 ~ present</h5>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
