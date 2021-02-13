@@ -95,6 +95,9 @@
 .activity-box {
   height: 380px;
 }
+.end-box {
+  height: 250px;
+}
 
 .nav-width {
   width: 10rem;
@@ -112,6 +115,10 @@
   font-family: 'Kalam', cursive;
 }
 
+.font-ko {
+  font-family: 'Gaegu', cursive;
+}
+
 /* @media (max-width: 992px) {
   .main-head {
 
@@ -120,6 +127,12 @@
 
 .city {
   position: absolute;
-  left: 0px;
+  left: 20px;
   bottom: 0px;
+}
+
+@media (max-width: 992px) {
+  .city1 {
+    display: none;
+  }
 }
