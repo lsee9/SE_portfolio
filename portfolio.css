@@ -109,7 +109,7 @@
   height: 610px;
 }
 @media (min-width: 768px) {
-  .activity-box {
+  .favorite-box {
     height: 380px;
   }
 }
