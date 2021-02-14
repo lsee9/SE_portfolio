@@ -104,6 +104,16 @@
   height: 250px;
 }
 
+/* favorite */
+.favorite-box {
+  height: 600px;
+}
+@media (min-width: 768px) {
+  .activity-box {
+    height: 380px;
+  }
+}
+
 .nav-width {
   width: 10rem;
 }
@@ -142,7 +152,7 @@
     font-size: 5rem;
   }
 }
-/* head content */
+/* main content */
 .head1 {
   font-size: 1rem;
 }
@@ -164,10 +174,49 @@
 @media (min-width: 1300px){
   .head1 {
     font-size: 1.5rem;
-    pa
   }
 }
 
+/* profile content */
+.head2 {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .head2 {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1300px){
+  .head2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* 이모지 */
+.image-size {
+  height: 250px;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .image-size {
+    height: 270px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .image-size {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+  .image-size {
+    height: 300px;
+  }
+}
+@media (min-width: 1300px){
+  .image-size {
+    height: 400px;
+  }
+}
 
 .main-font {
   font-family: 'Kalam', cursive;
@@ -189,9 +238,61 @@
   bottom: 0px;
 }
 
-/* 992px까지 적용 */
-@media (max-width: 992px) {
+
+/* city */
+.city1 {
+  display: none;
+}
+@media (min-width: 600px){
   .city1 {
-    display: none;
+    display: inline-block;
+  }
+}
+.city2 {
+  display: none;
+}
+@media (min-width: 700px) {
+  .city2 {
+    display: inline-block;
+  }
+}
+.city3 {
+  display: none;
+}
+@media (min-width: 800px) {
+  .city3 {
+    display: inline-block;
+  }
+}
+.city4 {
+  display: none;
+}
+@media (min-width: 992px) {
+  .city4 {
+    display: inline-block;
+  }
+}
+.city5 {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .city5 {
+    display: inline-block;
+  }
+}
+.city6 {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .city6 {
+    display: inline-block;
+  }
+}
+.city7 {
+  display: none;
+}
+@media (min-width: 1500px) {
+  .city7 {
+    display: inline-block;
   }
 }
