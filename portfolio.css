@@ -76,7 +76,12 @@
 
 /* 전체가 805px정도 */
 .main-box {
-  height: 700px;
+  height: 600px;
+}
+@media (min-width: 768px){
+  .main-box {
+    height: 700px;
+  }
 }
 
 .profile-box1 {
@@ -111,6 +116,59 @@
   font-family: 'Lobster', cursive;
 }
 
+.head {
+  font-size: 2.5rem;
+}
+
+/* title */
+@media (min-width: 576px) and (max-width: 768px) {
+  .head {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .head {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+  .head {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1300px){
+  .head {
+    font-size: 5rem;
+  }
+}
+/* head content */
+.head1 {
+  font-size: 1rem;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .head1 {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .head1 {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+  .head1 {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1300px){
+  .head1 {
+    font-size: 1.5rem;
+    pa
+  }
+}
+
+
 .main-font {
   font-family: 'Kalam', cursive;
 }
@@ -131,6 +189,7 @@
   bottom: 0px;
 }
 
+/* 992px까지 적용 */
 @media (max-width: 992px) {
   .city1 {
     display: none;
