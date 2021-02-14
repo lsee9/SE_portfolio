@@ -76,13 +76,13 @@
 
 /* 전체가 805px정도 */
 .main-box {
-  height: 600px;
+  height: 700px;
 }
-@media (min-width: 768px){
+/* @media (min-width: 768px){
   .main-box {
     height: 700px;
   }
-}
+} */
 
 .profile-box1 {
   height: 90px;
