@@ -1,6 +1,6 @@
 [SE_portfolio](https://lsee9.github.io/SE_portfolio/) 👈 완성페이지
 <br>
-> 완전한 제작파일은 master branch에!!
+> 완전한 제작파일은 [master branch](https://github.com/lsee9/SE_portfolio/tree/master)에!!
 
 # SE_portfolio
 <br>
